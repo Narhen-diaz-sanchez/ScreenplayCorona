@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d0d4968-72fd-4da2-b511-1ca60c1fff51" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/interactions/ClickAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/interactions/ClickAleatorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/interactions/SeleccionarIndice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/interactions/SeleccionarIndice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaPrincipalUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaPrincipalUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaProductoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaProductoUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/corona/stepDefinitions/ValidacionElementoStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/corona/stepDefinitions/ValidacionElementoStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,18 +63,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Narhen Diaz Sanchez/IdeaProjects/ScreenplayCorona/src/main/java/co/corona/interactions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Narhen Diaz Sanchez/IdeaProjects/ScreenplayCorona/src/main/java/co/corona/interactions&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Narhen Diaz Sanchez\IdeaProjects\ScreenplayCorona\src\main\java\co\corona\interactions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.corona.tasks" />
       <recent name="co.corona.globalVar" />
       <recent name="co.corona.interactions" />
       <recent name="co.corona.driver" />

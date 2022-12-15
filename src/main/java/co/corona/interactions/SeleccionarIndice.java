@@ -17,8 +17,8 @@ public class SeleccionarIndice implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
         List< WebElementFacade> ListProducts = LBL_NOMBRESPRODUCTOS.resolveAllFor(actor);
-        Global.Check = ListProducts.get(3).getText();
-        ListProducts.get(3).click();
+        Global.Check = ListProducts.get(2).getText();
+        ListProducts.get(2).click();
 
 
     }

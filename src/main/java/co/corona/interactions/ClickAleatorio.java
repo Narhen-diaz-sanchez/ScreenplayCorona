@@ -20,7 +20,7 @@ public class ClickAleatorio implements Interaction {
     public <T extends Actor> void performAs(T actor) {
         List< WebElementFacade> ListaDeProductos = LBL_NOMBRESPRODUCTOS.resolveAllFor(actor);
         Random random  = new Random();
-        int randomNumber = random.nextInt(ListaDeProductos.size()+1);
+        int randomNumber = random.nextInt(ListaDeProductos.size());
         ListaDeProductos.get(randomNumber).click();
 
 
