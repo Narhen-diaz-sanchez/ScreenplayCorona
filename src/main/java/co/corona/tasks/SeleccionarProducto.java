@@ -1,8 +1,7 @@
 package co.corona.tasks;
 
 
-import co.corona.interactions.ObtenerTexto;
-import co.corona.interactions.SeleccionarIndice;
+import co.corona.interactions.ClickAleatorio;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
@@ -15,8 +14,7 @@ public class SeleccionarProducto implements Task {
 
         actor.attemptsTo(
 
-                SeleccionarIndice.on(),
-                ObtenerTexto.on()
+                ClickAleatorio.on()
 
         );
 

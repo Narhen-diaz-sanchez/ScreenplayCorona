@@ -6,13 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="2d0d4968-72fd-4da2-b511-1ca60c1fff51" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/interactions/ClickAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/interactions/ClickAleatorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/interactions/SeleccionarIndice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/interactions/SeleccionarIndice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/tasks/SeleccionarProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/tasks/SeleccionarProducto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaPrincipalUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaPrincipalUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaProductoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/corona/userInterface/CoronaProductoUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/corona/stepDefinitions/ValidacionElementoStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/corona/stepDefinitions/ValidacionElementoStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e_screenshots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2837895a4a00740ef098e5ad9d8c1a214719fa3d65c69422e23ddbb6829b109e.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <recent name="co.corona.driver" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.VerificarProductoRunner">
     <configuration name="ValidacionElementoRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -105,8 +105,32 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="VerificarProductoRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.corona.runners.VerificarProductoRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.VerificarProductoRunner" />
         <item itemvalue="Gradle.ValidacionElementoRunner" />
       </list>
     </recent_temporary>

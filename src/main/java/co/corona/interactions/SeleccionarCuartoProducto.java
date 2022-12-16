@@ -9,22 +9,17 @@ import net.serenitybdd.screenplay.Performable;
 
 import java.util.List;
 
-import static co.corona.userInterface.CoronaPrincipalUI.LBL_NOMBRESPRODUCTOS;
+import static co.corona.userInterface.CoronaPrincipalUI.LBL_NOMBRECUARTOPRODUCTO;
 
-
-public class SeleccionarIndice implements Interaction {
-
+public class SeleccionarCuartoProducto implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
-        List< WebElementFacade> ListProducts = LBL_NOMBRESPRODUCTOS.resolveAllFor(actor);
-        Global.Check = ListProducts.get(3).getText();
-        ListProducts.get(3).click();
-
+        Global.Check = LBL_NOMBRECUARTOPRODUCTO.resolveFor(actor).getText();
+        LBL_NOMBRECUARTOPRODUCTO.resolveFor(actor).click();
 
     }
 
     public static Performable on (){
-        return Instrumented.instanceOf(SeleccionarIndice.class).withProperties();
+        return Instrumented.instanceOf(SeleccionarCuartoProducto.class).withProperties();
     }
-
 }
